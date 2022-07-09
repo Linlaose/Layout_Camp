@@ -145,7 +145,7 @@ a {
 
 mark {
   padding-left: 16px;
-  vertical-align: top;
+  vertical-align: 4px;
   font: normal normal 600 24px/36px SF Pro Text;
   color: #A00404;
   background: none; }
@@ -155,7 +155,7 @@ mark {
   margin: 0 auto; }
 
 header {
-  padding: 40px 0 24px 0;
+  padding: 40px 0 22px 0;
   font: normal normal normal 80px/95px SF Pro Text;
   text-align: left;
   border-bottom: 2px solid #000; }
@@ -164,7 +164,7 @@ header {
   padding: 48px 0; }
 
 h2 {
-  padding-bottom: 8px;
+  padding-bottom: 7px;
   margin-bottom: 16px;
   font: normal normal 400 32px/48px PingFang TC;
   border-bottom: 1px solid; }
@@ -190,7 +190,7 @@ h2 {
   .skills h3 {
     width: 51.9%;
     margin: 0 auto;
-    padding: 24px 16px 8px 0;
+    padding: 24px 16px 7px 0;
     margin-bottom: 40px;
     border-bottom: 1px solid #fff; }
     .skills h3 .skill {
@@ -237,7 +237,7 @@ footer {
   footer h2 {
     width: 51.9%;
     margin: 0 auto;
-    padding: 24px 16px 8px 0;
+    padding: 24px 16px 7px 0;
     margin-bottom: 24px;
     border-bottom: 1px solid #fff; }
     footer h2 span {
