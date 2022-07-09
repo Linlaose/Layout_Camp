@@ -1,0 +1,255 @@
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/all.scss ***!
+  \********************************************************************************************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+a {
+  display: block;
+  text-decoration: none; }
+
+mark {
+  padding-left: 16px;
+  vertical-align: top;
+  font: normal normal 600 24px/36px SF Pro Text;
+  color: #A00404;
+  background: none; }
+
+.container {
+  max-width: 62.5%;
+  margin: 0 auto; }
+
+header {
+  padding: 40px 0 24px 0;
+  font: normal normal normal 80px/95px SF Pro Text;
+  text-align: left;
+  border-bottom: 2px solid #000; }
+
+.avatar {
+  padding: 48px 0; }
+
+h2 {
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font: normal normal 400 32px/48px PingFang TC;
+  border-bottom: 1px solid; }
+
+.profileContent p {
+  padding-bottom: 24px;
+  font: normal normal 300 24px/36px PingFang TC; }
+
+.profileContent .second-p {
+  padding-bottom: 64px; }
+
+.education li {
+  font: normal normal 300 24px/36px PingFang TC; }
+
+.education .bachelor {
+  padding-bottom: 16px; }
+
+.skills {
+  margin: 64px 0;
+  color: #fff;
+  text-align: center;
+  background: #415165; }
+  .skills h3 {
+    width: 51.9%;
+    margin: 0 auto;
+    padding: 24px 16px 8px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fff; }
+    .skills h3 .skill {
+      font: normal normal 300 32px/48px PingFang TC; }
+    .skills h3 span {
+      padding-left: 16px;
+      vertical-align: middle;
+      font: normal normal 600 24px/36px SF Pro Text; }
+  .skills ul {
+    padding-bottom: 40px; }
+    .skills ul li {
+      width: 11.5%;
+      margin: 0 auto;
+      padding-left: 24px;
+      padding-bottom: 8px;
+      font: normal normal 300 24px/36px SF Pro Text;
+      text-align: left;
+      border-left: 1px solid #96A9C4; }
+    .skills ul .language {
+      padding-bottom: 0; }
+
+.experience ul {
+  margin-left: 24px;
+  border-left: 1px solid #96A9C4; }
+  .experience ul li {
+    width: 53.5%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font: normal normal 400 24px/36px PingFang TC; }
+    .experience ul li p {
+      font: normal normal 300 20px/30px PingFang TC; }
+    .experience ul li .hexSchool {
+      padding: 16.5px 0; }
+    .experience ul li .simTree {
+      padding: 13.5px 0; }
+  .experience ul .simTreeLi {
+    padding-bottom: 0; }
+
+footer {
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+  background: #415165; }
+  footer h2 {
+    width: 51.9%;
+    margin: 0 auto;
+    padding: 24px 16px 8px 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #fff; }
+    footer h2 span {
+      padding-left: 16px;
+      font: normal normal medium 24px/36px SF Pro Text; }
+  footer li {
+    padding-bottom: 16px;
+    font: normal normal 300 24px/36px SF Pro Text; }
+    footer li img {
+      display: inline;
+      padding-left: 20px;
+      vertical-align: top; }
+  footer .social-media {
+    padding-bottom: 40px; }
+

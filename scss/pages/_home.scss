@@ -1,0 +1,133 @@
+.container {
+  max-width: 62.5%;
+  margin: 0 auto;
+}
+
+header{
+  padding: 40px 0 24px 0;
+  font: normal normal normal 80px/95px SF Pro Text;
+  text-align: left;
+  border-bottom: 2px solid #000;
+}
+
+.avatar {
+  padding: 48px 0;
+}
+
+h2{
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  font: normal normal 400 32px/48px PingFang TC;
+  border-bottom: 1px solid;
+}
+
+.profileContent {
+  p{
+    padding-bottom: 24px;
+    font: normal normal 300 24px/36px PingFang TC;
+  }
+  .second-p{
+    padding-bottom: 64px;
+  }
+}
+
+.education{
+  li{
+    font: normal normal 300 24px/36px PingFang TC;
+  }
+  .bachelor{
+    padding-bottom: 16px;
+  }
+}
+
+.skills{
+  margin: 64px 0;
+  color: #fff;
+  text-align: center;
+  background: #415165;
+  h3{
+    width: 51.9%;
+    margin: 0 auto;
+    padding: 24px 16px 8px 0;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #fff;
+    .skill{
+      font: normal normal 300 32px/48px PingFang TC;
+    }
+    span{
+      padding-left: 16px;
+      vertical-align: middle;
+      font: normal normal 600 24px/36px SF Pro Text;
+    }
+  }
+  ul{
+    padding-bottom: 40px;
+    li{
+      width: 11.5%;
+      margin: 0 auto;
+      padding-left: 24px;
+      padding-bottom: 8px;
+      font: normal normal 300 24px/36px SF Pro Text;
+      text-align: left;
+      border-left: 1px solid #96A9C4;
+    }
+    .language{
+      padding-bottom: 0;
+    }
+  }
+}
+
+.experience {
+  ul{
+    margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+    li{
+      width: 53.5%;
+      padding-left: 24px;
+      padding-bottom: 24px;
+      font: normal normal 400 24px/36px PingFang TC;
+      p{
+        font: normal normal 300 20px/30px PingFang TC;
+      }
+      .hexSchool{
+        padding: 16.5px 0;
+      }
+      .simTree{
+        padding: 13.5px 0;
+      }
+    }
+    .simTreeLi{
+      padding-bottom: 0;
+    }
+  }
+}
+
+footer{
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+  background: #415165;
+  h2 {
+    width: 51.9%;
+    margin: 0 auto;
+    padding: 24px 16px 8px 0;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #fff;
+    span{
+      padding-left: 16px;
+      font: normal normal medium 24px/36px SF Pro Text;
+    }
+  }
+  li{
+    padding-bottom: 16px;
+    font: normal normal 300 24px/36px SF Pro Text;
+    img{
+      display: inline;
+      padding-left: 20px;
+      vertical-align: top;
+    }
+  }
+  .social-media {
+    padding-bottom: 40px;
+  }
+}
