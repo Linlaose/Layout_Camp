@@ -1,11 +1,12 @@
 .container {
-  max-width: 62.5%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-header{
+h1{
   padding: 40px 0 22px 0;
-  font: normal normal normal 80px/95px SF Pro Text;
+  font-size: 80px;
+  line-height: 1.2;
   text-align: left;
   border-bottom: 2px solid #000;
 }
@@ -17,14 +18,16 @@ header{
 h2{
   padding-bottom: 7px;
   margin-bottom: 16px;
-  font: normal normal 400 32px/48px PingFang TC;
+  font-size: 32px;
+  font-weight: 400;
   border-bottom: 1px solid;
 }
 
 .profileContent {
   p{
     padding-bottom: 24px;
-    font: normal normal 300 24px/36px PingFang TC;
+    font-size: 24px;
+    font-weight: 300;
   }
   .second-p{
     padding-bottom: 64px;
@@ -33,7 +36,8 @@ h2{
 
 .education{
   li{
-    font: normal normal 300 24px/36px PingFang TC;
+    font-size: 24px;
+    font-weight: 300;
   }
   .bachelor{
     padding-bottom: 16px;
@@ -52,22 +56,24 @@ h2{
     margin-bottom: 40px;
     border-bottom: 1px solid #fff;
     .skill{
-      font: normal normal 300 32px/48px PingFang TC;
+      font-size: 32px;
+      font-weight: 300;
     }
     span{
       padding-left: 16px;
       vertical-align: middle;
-      font: normal normal 600 24px/36px SF Pro Text;
+      font-size: 24px;
+      font-weight: 600;
     }
   }
   ul{
+    display: inline-block;
     padding-bottom: 40px;
     li{
-      width: 11.5%;
-      margin: 0 auto;
       padding-left: 24px;
       padding-bottom: 8px;
-      font: normal normal 300 24px/36px SF Pro Text;
+      font-size: 24px;
+      font-weight: 300;
       text-align: left;
       border-left: 1px solid #96A9C4;
     }
@@ -82,12 +88,14 @@ h2{
     margin-left: 24px;
     border-left: 1px solid #96A9C4;
     li{
-      width: 53.5%;
+      width: 642px;
       padding-left: 24px;
       padding-bottom: 24px;
-      font: normal normal 400 24px/36px PingFang TC;
+      font-size: 24px;
+      font-weight: 400;
       p{
-        font: normal normal 300 20px/30px PingFang TC;
+        font-size: 20px;
+        font-weight: 300;
       }
       .hexSchool{
         padding: 16.5px 0;
@@ -108,26 +116,43 @@ footer{
   text-align: center;
   background: #415165;
   h2 {
-    width: 51.9%;
+    width: 1200px;
     margin: 0 auto;
     padding: 24px 16px 7px 0;
     margin-bottom: 24px;
     border-bottom: 1px solid #fff;
     span{
       padding-left: 16px;
-      font: normal normal medium 24px/36px SF Pro Text;
+      font-size: 24px;
+      font-weight: 400;
     }
   }
   li{
     padding-bottom: 16px;
-    font: normal normal 300 24px/36px SF Pro Text;
+    font-size: 24px;
+    font-weight: 300;
     img{
       display: inline;
       padding-left: 20px;
       vertical-align: top;
     }
+    a{
+      display: inline;
+      color: #fff;
+      border-bottom: 1px solid transparent;
+      &:hover{
+        border-bottom: 1px solid rgb(251, 255, 0);
+        cursor: pointer;
+      }
+    }
   }
   .social-media {
     padding-bottom: 40px;
+    a{
+      &:hover{
+        border: none;
+        opacity: .8;
+      }
+    }
   }
 }
